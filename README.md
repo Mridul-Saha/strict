@@ -1,0 +1,2 @@
+# strict
+one page website
