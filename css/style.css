@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header strat */
+header {
+    width: 100%;
+    float: left;
+    background-color: #F6F9F9;
+    padding: 30px 0px;
+}
+
+.logo {
+    margin: 0px 30px;
+}
+
+.logo img {}
+
+/* header end */
+
+/* banner strat */
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.banner-content h2 {
+    font-size: 120px;
+    color: #fff;
+}
+
+.banner-content span {
+    border-bottom: 2px solid #15A4FA;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.banner-content p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.button-one {
+    background: transparent;
+    padding: 11px 42px;
+    border: 2px solid #15A4FA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner-icon {
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 55px;
+}
+
+/* banner end */
+
+/* about strat */
+.about {
+    width: 100%;
+    float: left;
+    background-color: #F6F9F9;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.about-us {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px 0px;
+    color: #2D3950;
+}
+
+.about-us p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #999999;
+}
+
+/* about end*/
+
+/* service strat */
+.our-service {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 30px 0px;
+}
+
+.service {}
+
+.service-one {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 30px 47px;
+}
+
+.service-one img {}
+
+.service-one h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #2D3950;
+    padding: 20px 0px;
+}
+
+.service-one p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+}
+
+/* service end */
+
+/* portfolio strat */
+.portfolio {
+    width: 100%;
+    float: left;
+    background-color: #F6F9F9;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+.portfolio-title h2 {
+    font-size: 41px;
+    font-weight: 400;
+    color: #2D3950;
+    padding: 25px;
+}
+
+.portfolio-title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+    padding-bottom: 70px;
+}
+
+.portfolio-image {}
+
+.portfolio-image img {
+    margin: 0px 8px;
+    padding: 15px 0px;
+}
+
+/* portfolio end */
+
+/* contact strat */
+.contact {
+    background-image: url(../img/bg.png);
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 41px;
+    font-weight: 400;
+    color: #fff;
+    padding: 25px;
+}
+
+.title p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+    padding-bottom: 70px;
+}
+
+.text-section {
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.form-control {
+    width: 90%;
+    padding: 10px 0px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #999;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.text-control {
+    width: 90%;
+    padding: 10px 0px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #999;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.checkbox {}
+
+.subscribe {
+    color: #999;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 8px;
+}
+
+.button-two {
+    background: transparent;
+    padding: 11px 42px;
+    border: 2px solid #15A4FA;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 118px;
+}
+
+/* contact end */
+
+/* footer strat */
+footer {
+    background-color: #F6F9F9;
+}
+
+.copyright {
+
+    width: 25%;
+    float: left;
+}
+
+.copyright p {
+    font-size: 15px;
+    color: #999;
+    padding: 50px 45px;
+}
+
+.social-icon {
+    wwidth: 25%;
+    float: right;
+}
+
+.social-icon ul {
+    list-style-type: none;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin: 30px 4px;
+}
+
+.social-icon ul li a {
+    font-size: 50px;
+    color: #15A4FA;
+}
+
+/* footer end */
